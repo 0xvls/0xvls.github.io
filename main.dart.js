@@ -22153,7 +22153,8 @@ q=v.G
 q.window.Telegram.WebApp.disableVerticalSwipes()
 q.window.Telegram.WebApp.setHeaderColor(A.aDe(B.i))
 q.window.Telegram.WebApp.setBottomBarColor(A.aDe(B.i))
-s.RK()}catch(p){r=A.Z(p)
+s.RK()
+q.window.Telegram.WebApp.requestFullscreen()}catch(p){r=A.Z(p)
 A.nb("Error initializing Mini App: "+A.j(r))}if($.ac==null)A.aAD()
 q=$.ac
 q.toString
